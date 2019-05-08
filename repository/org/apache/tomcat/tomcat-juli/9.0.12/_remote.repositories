@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 08 05:50:20 IST 2019
+tomcat-juli-9.0.12.pom>central=
+tomcat-juli-9.0.12-sources.jar>central=
+tomcat-juli-9.0.12.jar>central=
