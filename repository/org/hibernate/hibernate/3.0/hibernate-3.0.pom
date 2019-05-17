@@ -1,0 +1,45 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.hibernate</groupId>
+  <artifactId>hibernate</artifactId>
+  <name>hibernate</name>
+  <version>3.0</version>
+  <description>Hibernate is a powerful, ultra-high performance object/relational persistence and
+    query service for Java.</description>
+  <url>http://www.hibernate.org/</url>
+  <issueManagement>
+    <url>http://opensource.atlassian.com/projects/hibernate/secure/Dashboard.jspa</url>
+  </issueManagement>
+  <inceptionYear>2002</inceptionYear>
+  <build>
+    <sourceDirectory>src/java</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <configuration>
+          <excludes>
+            <exclude>**/*~</exclude>
+            <exclude>**/#*#</exclude>
+            <exclude>**/.#*</exclude>
+            <exclude>**/%*%</exclude>
+            <exclude>**/._*</exclude>
+            <exclude>**/CVS</exclude>
+            <exclude>**/CVS/**</exclude>
+            <exclude>**/.cvsignore</exclude>
+            <exclude>**/SCCS</exclude>
+            <exclude>**/SCCS/**</exclude>
+            <exclude>**/vssver.scc</exclude>
+            <exclude>**/.svn</exclude>
+            <exclude>**/.svn/**</exclude>
+            <exclude>**/.DS_Store</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <organization>
+    <name>hibernate.org</name>
+    <url>http://www.hibernate.org/</url>
+  </organization>
+</project>
